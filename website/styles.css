@@ -1,0 +1,94 @@
+/* this is what controls the whole background of website*/
+body{
+  background-color: inherit;
+}
+
+/* First word intro talking about the 'intro website' */
+p.setofwords1 {
+  font-size: 70px;
+  font-family: sans-serif;
+  text-decoration: underline;
+  color: rgb(36,64,241);
+  background-color: rgb(36,241,241);
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: darkgrey;
+}
+
+/*For my main words set*/
+p.stw {
+  font-size: 35px;
+  font-family: sans-serif;
+  color: white;
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: cyan;
+
+}
+/* description of what link is. */
+p.setofwords2 {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: purple;
+  background-color: white;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Control pannel*/
+nav.main ul {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+  background-color: black;
+}
+
+/* Puts the links in a line */
+nav.main li  {
+  display: inline-block;
+}
+
+/* This syles the links */
+nav.main li a {
+  display: block;
+  text-decoration-color: cyan;
+  border-style: double;
+  border-width: 100%inherit;
+  border-color: white;
+  border-width: 8px;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+  padding: 10px 10px;
+  color: cyan;
+}
+
+/* Color when links are hovered over*/
+li a:hover {
+  background-color: darkred;
+}
+/* Sofija Trademark*/
+h1 {
+  color: black;
+  font-size: 25px;
+  font-style: bold;
+  text-align: right;
+}
+/* Contact page info*/
+p.contact {
+  font-size: 99px;
+  font-style: italic;
+  background-color: black;
+  color: cyan;
+  text-align: center;
+  border-width: 8px;
+  border-color: cyan;
+  margin: 20px;
+}
